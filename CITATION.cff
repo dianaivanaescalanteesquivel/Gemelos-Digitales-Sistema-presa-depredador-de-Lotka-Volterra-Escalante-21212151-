@@ -13,19 +13,20 @@ authors:
     email: l21212151@tectijuana.edu.mx
     affiliation: Tecnológico Nacional de MéXICO
 repository-code: >-
-  https://github.com/dianaivanaescalanteesquivel/Gemelos-Digitales-Leyes-de-Crecimiento-Exponencial-Escalante-21212151-/tree/main
+  https://github.com/dianaivanaescalanteesquivel/Gemelos-Digitales-Sistema-presa-depredador-de-Lotka-Volterra-Escalante-21212151-/tree/main
 abstract: |-
   Tecnológico Nacional de México
   Instituto Tecnológico de Tijuana
   Ingeniería Biomédica
   Gemelos Digitales
-  Práctica 1: Leyes de Crecimiento Exponencial
+  Práctica 2: Sistema presa-depredador de Lotka-Volterra
 keywords:
-  - Ley de crecimiento exponencial
+  - Método de Euler
   - Método de Heun
-  - Nanohidrogeles
-  - Tasa de liberación de fármaco
-  - Farmacocinética
-  - Protocolo basado en modelos
+  - Solucionadores Stiff y Nonstiff
+  - Modelo lineal
+  - Sistema Lotka-Volterra
+  - Macrófagos
+  - Mycobacterium Tuberculosis
 license: BSD-2-Clause
 date-released: '2025-02-10'

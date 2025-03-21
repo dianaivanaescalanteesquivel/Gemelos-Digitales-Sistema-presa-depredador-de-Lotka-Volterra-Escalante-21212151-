@@ -28,4 +28,4 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 
 [3] MathWorks. (n.d). Stiff Differential Equations. [Online]. Available: https://la.mathworks.com/company/technical-articles/stiff-differential-equations.html
 
-[4] R. Álvarez-Nodarse, F. J. Esteban, y N. Rodríguez Quintero, "Un modelo de respuesta de la primera línea de actuación del sistema inmune frente a una infección", 25 de mayo de 2020. [En línea]. Disponible en: https://renato.ryn-fismat.es/papers/otras/doc/modelo_infeccion.pdf
+[4] R. Álvarez-Nodarse, F. J. Esteban, y N. Rodríguez Quintero, "Un modelo de respuesta de la primera línea de actuación del sistema inmune frente a una infección", May 2020. [Online]. Available: https://renato.ryn-fismat.es/papers/otras/doc/modelo_infeccion.pdf

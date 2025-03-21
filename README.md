@@ -6,13 +6,14 @@ Diana Ivana Escalante Esquivel
 Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: paul.valle@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica se implementarán los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden, evaluando su precisión en distintos escenarios. Posteriormente, se calculará la tasa de decrecimiento biológico a partir del tiempo de vida media, permitiendo estimar la dinámica de diversos procesos fisiológicos. Asimismo, se ajustará la ecuación de farmacocinética de primer orden utilizando algoritmos de regresión no lineal, con el objetivo de estimar las tasas de liberación de fármacos por nanohidrogeles. Finalmente, se diseñarán protocolos de quimioterapia basados en modelos matemáticos para ilustrar la concentración del imatinib en el compartimento sanguíneo, considerando su absorción tras la ingesta oral. Esta práctica integra herramientas computacionales y matemáticas clave para el modelizado de fenómenos biológicos, contribuyendo al desarrollo de estrategias terapéuticas personalizadas.
+En esta práctica se implementarán diversos métodos numéricos, incluyendo Euler, Heun y solucionadores stiff y nonstiff de MATLAB, para la solución de ecuaciones diferenciales ordinarias (EDO) de primer orden. Se representará el sistema Lotka-Volterra permitiendo analizar la dinámica de dos poblaciones. Se calculará la matriz Jacobiana del sistema, los puntos de equilibrio y los valores propios asociados, lo que permitirá examinar su estabilidad. Asimismo, se aplicará el ajuste de datos para mejorar la representación del sistema, empleando métodos como modelos gaussianos y lineales, con el fin de obtener una mejor aproximación a los parámetros del sistema. Se calcularán parámetros estadísticos clave, como el tamaño de la muestra, los grados de libertad, el nivel de significancia, el valor t-Student, el coeficiente de determinación ajustado y el criterio de información de Akaike corregido (AICc), garantizando un análisis robusto de los datos. Finalmente, se emplearán los métodos previamente desarrollados en el modelado de un sistema presa-depredador aplicado a macrófagos y Mycobacterium tuberculosis.
 
 ## Objetivos específicos
-1. Aplicar los métodos de Euler y Heun para la solución de Ecuaciones Diferenciales Ordinarias de primer orden lineales e invariantes en el tiempo.
-2. Calcular las tasas de crecimiento, degradación a partir del tiempo de vida medio biológico.
-3. Ajusta la Ecuación de farmacocinética de primer orden mediante algoritmos de regresión no lineal para la estimación de tasas de liberación de fármaco por nanohidrogeles.
-4. Diseñar protocolos de quimioterapia basados en modelos para ilustrar la dinámica del imatinib en el compartimento sanguíneo cuando se ingiere una dosis de 300 mg/día de este fármaco.
+1. Implementar métodos numéricos como Euler, Heun y solucionadores stiff y nonstiff de MATLAB para modelar el sistema Lotka-Volterra.
+2. Calcular la matriz Jacobiana, puntos de equilibrio y valores propios del sistema para analizar su estabilidad.
+3. Ajustar datos del sistema Lotka-Volterra con modelos gaussianos y lineales para mejorar su representación.
+4. Calcular los parámetros estadísticos clave del sistema.
+5. Aplicar el análisis al sistema presa-depredador entre macrófagos y Mycobacterium tuberculosis.
 
 ## Docente
 Dr. Paul Antonio Valle Trujillo
@@ -24,3 +25,5 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 [2] L. Petzold. "Automatic selection of methods for solving stiff and nonstiff systems of ordinary differential equations". SIAM journal on scientific and statistical computing, vol. 4, issue 1, pp. 136-148, 1983.
 
 [3] MathWorks. (n.d). Stiff Differential Equations. [Online]. Available: https://la.mathworks.com/company/technical-articles/stiff-differential-equations.html
+
+[4] R. Álvarez-Nodarse, F. J. Esteban, y N. Rodríguez Quintero, "Un modelo de respuesta de la primera línea de actuación del sistema inmune frente a una infección", 25 de mayo de 2020. [En línea]. Disponible en: https://renato.ryn-fismat.es/papers/otras/doc/modelo_infeccion.pdf
